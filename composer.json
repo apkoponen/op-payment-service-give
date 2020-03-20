@@ -1,0 +1,23 @@
+{
+    "name": "op-payment-service-for-give",
+    "type": "wordpress-plugin",
+    "description": "GiveWP gateway for OP Payment Service (previously known as Checkout Finland) is a payment gateway that offers 20+ payment methods for Finnish customers.",
+    "authors": [
+        {
+            "name": "Ari-Pekka Koponen",
+            "email": "ap.koponen+plugin@gmail.com",
+            "homepage": "http://a-p.fi",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "wordpress", "woocommerce", "payment gateway", "op payment service", "checkout finland"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": ">=1.0.12",
+        "op-merchant-services/op-payment-service-php-sdk": ">=1.0.0",
+        "ext-mbstring": "*"
+    }
+}

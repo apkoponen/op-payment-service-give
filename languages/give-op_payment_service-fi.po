@@ -1,0 +1,247 @@
+# Copyright (C) 2017 Give-OP Payment Service
+# This file is distributed under the same license as the Give-OP Payment Service package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-OP Payment Service\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/Give-OP Payment Service/"
+"issues/new\n"
+"POT-Creation-Date: 2020-03-20 13:16+0200\n"
+"PO-Revision-Date: 2020-03-20 13:23+0200\n"
+"Last-Translator: A-P Koponen / Versi <info@versi.fi>\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/actions.php:43
+msgid "Phone"
+msgstr "Puhelin"
+
+#: includes/actions.php:46
+msgid "Enter only phone number."
+msgstr "Anna vain puhelinnumero."
+
+#: includes/admin/actions.php:52
+msgid "Phone:"
+msgstr "Puhelin:"
+
+#: includes/admin/class-admin-settings.php:63 includes/functions.php:44
+msgid "OP Payment Service"
+msgstr "OP Payment Service"
+
+#: includes/admin/class-admin-settings.php:133
+msgid "Payment Method Label"
+msgstr "Maksutavan tunniste"
+
+#: includes/admin/class-admin-settings.php:137
+msgid "Payment method label will be appear on frontend."
+msgstr "Maksutavan nimi näkyy julkisella sivustolla."
+
+#: includes/admin/class-admin-settings.php:140
+msgid "Merchant ID"
+msgstr "Kauppiastunnus"
+
+#: includes/admin/class-admin-settings.php:143
+msgid "The Merchant ID provided by OP Payment Service."
+msgstr "Kauppiastunnus, OP Payment Service -palvelusta."
+
+#: includes/admin/class-admin-settings.php:146
+msgid "Merchant Secret"
+msgstr "Salainen avain"
+
+#: includes/admin/class-admin-settings.php:149
+msgid "The Merchant Secret provided by OP Payment Service."
+msgstr "Salainen avain, OP Paymen Service -palvelusta."
+
+#: includes/admin/class-admin-settings.php:152
+msgid "Show Phone Field"
+msgstr "Näytä puhelinkenttä"
+
+#: includes/admin/class-admin-settings.php:155
+msgid "Enable this setting if you want to show phone field on donation form."
+msgstr ""
+"Ota tämä asetus käyttöön, jos haluat näyttää puhelinkentän "
+"lahjoituslomakkeessa."
+
+#: includes/admin/class-admin-settings.php:158
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: includes/admin/class-admin-settings.php:159
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: includes/admin/plugin-activation.php:66
+msgid "OP Payment Service Gateway"
+msgstr "OP Payment Service Maksupääte"
+
+#: includes/admin/plugin-activation.php:91
+msgid ""
+"<strong>Activation Error:</strong> You must have the <a href=\"https://"
+"givewp.com/\" target=\"_blank\">Give</a> plugin installed and activated for "
+"the OP Payment Service add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:100
+#, php-format
+msgid ""
+"<strong>Activation Error:</strong> You must have <a href=\"%1$s\" target="
+"\"_blank\">Give</a> version %2$s+ for the OP Payment Service add-on to "
+"activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:118
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/donation-processing.php:9
+msgid "Nonce verification has failed."
+msgstr "Nonce-vahvistus on epäonnistunut."
+
+#: includes/donation-processing.php:9
+msgid "Error"
+msgstr "Virhe"
+
+#: includes/donation-processing.php:39
+msgid "Payment Error"
+msgstr "Maksuvirhe"
+
+#: includes/donation-processing.php:42
+#, php-format
+msgid ""
+"Payment creation failed before process OP Payment Service gateway. Payment "
+"data: %s"
+msgstr ""
+"Maksun luominen epäonnistui ennen OP Payment Service prosessia. Maksutiedot: "
+"%s"
+
+#: includes/functions.php:104
+msgid "An error occurred loading the payment providers."
+msgstr "Virhe ladattaessa maksutapoja."
+
+#: includes/functions.php:134
+msgid "The payment provider was not chosen."
+msgstr "Maksutapaa ei valittu."
+
+#: includes/functions.php:190
+#, php-format
+msgid "This is a donation payment for %s"
+msgstr "Tämä on lahjoitusmaksu UskoTV:lle: %s"
+
+#: includes/functions.php:220
+msgid "An error occurred validating the payment."
+msgstr "Virhe maksun tarkistuksessa."
+
+#: includes/functions.php:226 template/op_payment_service-process.php:20
+msgid "An error occurred validating the payment request."
+msgstr "Virhe maksupyynnön tarkistuksessa."
+
+#: includes/functions.php:232
+msgid "An error occurred performing the payment request."
+msgstr "Virhe maksupyynnön tekemisessä."
+
+#: includes/functions.php:268
+#, php-format
+msgid "OP Payment Service payment completed (Payment id: %s)"
+msgstr "OP Payment Service maksu onnistui (Maksu id: %s)"
+
+#: includes/functions.php:291
+#, php-format
+msgid "OP Payment Service payment cancelled (Payment id: %s)"
+msgstr "OP Payment Service maksu peruutettu (Maksu id: %s)"
+
+#: includes/functions.php:316
+#, php-format
+msgid "OP Payment Service payment failed (Payment id: %s)"
+msgstr "OP Payment Service maksu epäonnistui (Maksu id: %s)"
+
+#: includes/functions.php:324
+msgid "OP Payment Service Error"
+msgstr "OP Payment Service Virhe"
+
+#: includes/functions.php:325
+msgid ""
+"The OP Payment Service Gateway returned an error while charging a donation."
+msgstr "OP Payment Service palautti virheen veloitettaessa lahjoituksen."
+
+#: includes/functions.php:325
+#, php-format
+msgid "Details: %s"
+msgstr "Tiedot: %s"
+
+#: template/op_payment_service-form.php:22
+msgid "Mobile payment methods"
+msgstr "Mobiilimaksutavat"
+
+#: template/op_payment_service-form.php:23
+msgid "Bank payment methods"
+msgstr "Pankkimaksutavat"
+
+#: template/op_payment_service-form.php:24
+msgid "Card payment methods"
+msgstr "Korttimaksutavat"
+
+#: template/op_payment_service-form.php:25
+msgid "Invoice and instalment payment methods"
+msgstr "Lasku- ja osamaksutavat"
+
+#: template/op_payment_service-form.php:33
+msgid "Process Donations with the OP Payment Service"
+msgstr "Käsittele lahjoitus OP Payment Servicellä"
+
+#: template/op_payment_service-form.php:80
+msgid "Select payment method"
+msgstr "Valitse maksutapa"
+
+#: template/op_payment_service-redirect.php:17
+msgid "Redirecting you to the payment provider"
+msgstr "Ohjaamme sinut maksunvälittäjälle"
+
+#: template/op_payment_service-redirect.php:32
+msgid ""
+"Redirecting... If nothing happens in a few seconds, click the button below."
+msgstr ""
+"Ohjataan eteenpäin… Jos mitään ei tapahdu muutamassa sekunnissa, napsauta "
+"alla olevaa painiketta."
+
+#: template/op_payment_service-redirect.php:34
+msgid "Submit"
+msgstr "Lähetä"
+
+#~ msgid "Access Code"
+#~ msgstr "Pääsykoodi"
+
+#~ msgid "Required TEST Access Code provided by OP Payment Service."
+#~ msgstr "Tarvittava TEST-pääsykoodi, jonka toimittaa OP Payment Service."
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentointi"
+
+#~ msgid "Add-ons"
+#~ msgstr "Lisäosat"
+
+#~ msgid "CCavenue payment completed (Transaction id: %s)"
+#~ msgstr "CCavenue maksu suoritettu (Tapahtuma ID: %s)"
+
+#~ msgid "OP Payment Service payment failed (Transaction id: %s)"
+#~ msgstr "OP Payment Service maksu epäonnistui (Tapahtuma ID: %s)"
+
+#~ msgid "Process Donations with the OP Payment Service payment gateway"
+#~ msgstr "Prosessoi lahjoituksia OP Payment Service maksuliittymällä"
+
+#~ msgid ""
+#~ "Thank you for your donation. We are now redirecting you to OP Payment "
+#~ "Service to make payment..."
+#~ msgstr ""
+#~ "Kiitos lahjoituksesta. Ohjaamme sinut nyt OP Payment Service -sivulle "
+#~ "maksun suorittamiseksi…"

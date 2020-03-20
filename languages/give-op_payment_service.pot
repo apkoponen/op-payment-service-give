@@ -1,0 +1,181 @@
+# Copyright (C) 2017 Give-OP Payment Service
+# This file is distributed under the same license as the Give-OP Payment Service package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-OP Payment Service\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/Give-OP Payment Service/issues/new\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/actions.php:43
+msgid "Phone"
+msgstr ""
+
+#: includes/actions.php:46
+msgid "Enter only phone number."
+msgstr ""
+
+#: includes/admin/actions.php:52
+msgid "Phone:"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:63, includes/functions.php:37
+msgid "OP Payment Service"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:133
+msgid "Payment Method Label"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:137
+msgid "Payment method label will be appear on frontend."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:140
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:143
+msgid "The Merchant ID provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:146
+msgid "Working Key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:149
+msgid "The Working Key provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:152
+msgid "Access Code"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:155
+msgid "The Access Code provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:158
+msgid "Sandbox Merchant ID"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:161
+msgid "Required TEST Merchant ID provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:164
+msgid "Sandbox Working Key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:167
+msgid "Required TEST Working Key provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:170
+msgid "Sandbox Access Code"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:173
+msgid "Required TEST Access Code provided by OP Payment Service."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:176
+msgid "Show Phone Field"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:179
+msgid "Enable this setting if you want to show phone field on donation form."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:182
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:183
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:66
+msgid "OP Payment Service Gateway"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:91
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"https://givewp.com/\" target=\"_blank\">Give</a> plugin installed and activated for the OP Payment Service Add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:100
+msgid "<strong>Activation Error:</strong> You must have <a href=\"%s\" target=\"_blank\">Give</a> minimum version %s for the OP Payment Service Add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:118
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:153
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:163
+msgid "Add-ons"
+msgstr ""
+
+#: includes/donation-processing.php:9
+msgid "Nonce verification has failed."
+msgstr ""
+
+#: includes/donation-processing.php:9
+msgid "Error"
+msgstr ""
+
+#: includes/donation-processing.php:39
+msgid "Payment Error"
+msgstr ""
+
+#: includes/donation-processing.php:42
+msgid "Payment creation failed before process OP Payment Service gateway. Payment data: %s"
+msgstr ""
+
+#: includes/functions.php:101
+msgid "This is a donation payment for %s"
+msgstr ""
+
+#: includes/functions.php:148
+msgid "CCavenue payment completed (Transaction id: %s)"
+msgstr ""
+
+#: includes/functions.php:171
+msgid "OP Payment Service payment failed (Transaction id: %s)"
+msgstr ""
+
+#: includes/functions.php:179, includes/functions.php:208
+msgid "OP Payment Service Error"
+msgstr ""
+
+#: includes/functions.php:180, includes/functions.php:209
+msgid "The OP Payment Service Gateway returned an error while charging a donation."
+msgstr ""
+
+#: includes/functions.php:180, includes/functions.php:209
+msgid "Details: %s"
+msgstr ""
+
+#: includes/functions.php:200
+msgid "OP Payment Service payment has \"%1$s\" status. Check <a href=\"%1$s\" target=\"_blank\">OP Payment Service merchant dashboard</a> for more information or check the <a href=\"%1$s\" target=\"_blank\">payment gateway error logs</a> for additional details"
+msgstr ""
+
+#: template/op_payment_service-form.php:4
+msgid "Process Donations with the OP Payment Service payment gateway"
+msgstr ""
+
+#: template/op_payment_service-form.php:9
+msgid "Thank you for your donation. We are now redirecting you to OP Payment Service to make payment..."
+msgstr ""

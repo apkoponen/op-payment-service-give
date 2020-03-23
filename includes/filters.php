@@ -23,4 +23,4 @@ function give_op_payment_service_template_include_callback( $template ) {
 	return $template;
 }
 
-add_filter( 'template_include', 'give_op_payment_service_template_include_callback' );
+add_filter( 'template_include', 'give_op_payment_service_template_include_callback', 99999 );
